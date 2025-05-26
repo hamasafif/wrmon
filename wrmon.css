@@ -1,0 +1,38 @@
+#title {
+    height: 3;
+    content-align: center middle;
+    background: $accent;
+    color: $text;
+    text-style: bold;
+    border: heavy $secondary;
+}
+
+#monitors {
+    height: 1fr;
+}
+
+.panel {
+    width: 1fr;
+    padding: 1;
+    border: round white;
+}
+
+#credit {
+    text-align: center;
+    padding-bottom: 1;
+    color: gray;
+}
+
+DataTable {
+    margin: 1 0;
+    border: solid green;
+}
+
+NetworkMonitor {
+    margin-top: 1;
+    padding: 1;
+    height: auto;
+    background: black;
+    color: white;
+    border: round green;
+}
