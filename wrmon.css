@@ -1,38 +1,32 @@
-#title {
-    height: 3;
-    content-align: center middle;
-    background: $accent;
-    color: $text;
-    text-style: bold;
-    border: heavy $secondary;
+/* wrmon.css */
+
+Screen {
+    align: center middle;
+    padding: 1 2;
 }
 
-#monitors {
-    height: 1fr;
-}
-
-.panel {
-    width: 1fr;
-    padding: 1;
+#main-horizontal {
+    height: 90%;
+    width: 90%;
     border: round white;
 }
 
-#credit {
-    text-align: center;
-    padding-bottom: 1;
-    color: gray;
+Static {
+    border: round cornflowerblue;
+    padding: 1 2;
+    overflow: auto;
 }
 
-DataTable {
-    margin: 1 0;
-    border: solid green;
+#network-monitor {
+    width: 30%;
 }
 
-NetworkMonitor {
-    margin-top: 1;
-    padding: 1;
-    height: auto;
-    background: black;
-    color: white;
-    border: round green;
+#storage-monitor {
+    width: 35%;
+    height: 100%;
+}
+
+#physical-disk-monitor {
+    width: 35%;
+    height: 100%;
 }
