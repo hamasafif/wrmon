@@ -55,7 +55,7 @@ pip install psutil textual
 ```bash
 textual run wrmon.py
 Atau buat environment di /usr/local/bin
-```bash
+```
 ---
 
 🧼 TODO & Fitur Mendatang
